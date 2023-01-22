@@ -24,7 +24,7 @@ jobs:
       run: |
         python -m flake8
         cd tests/
-        pytest
+        python pytest
         # перейти в папку, содержащую manage.py — 
         #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
         #cd infra_project/
