@@ -25,11 +25,6 @@ jobs:
         python -m flake8
         cd tests/
         pytest
-        # перейти в папку, содержащую manage.py — 
-        #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
-        #cd infra_project/
-        # запустить написанные разработчиком тесты
-        #python manage.py test
 
   build_and_push_to_docker_hub:
       name: Push Docker image to Docker Hub
@@ -48,6 +43,7 @@ jobs:
         - name: Push to Docker Hub
           uses: docker/build-push-action@v2
           with:
+            context: api_yamdb
             push: true
             tags: ${{ secrets.USER }}/infra_sp2:v3.0.0
 
