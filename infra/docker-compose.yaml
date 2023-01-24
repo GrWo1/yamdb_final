@@ -10,7 +10,8 @@ services:
 
   web:
     image: grwo1/infra_sp2:v3.0.0
-    build: ../api_yamdb
+    build: .
+    #build: ../api_yamdb
     restart: always
     volumes:
       - static_value:/app/static/
