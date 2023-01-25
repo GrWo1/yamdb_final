@@ -11,8 +11,8 @@ services:
       - ./.env
 
   web:
-    image: grwo1/yamdb_final:v1.0.0
-    build: ../api_yamdb/
+    image: grwo1/yamdb_final:v4.0.0
+    #build: ../api_yamdb/
     restart: always
     volumes:
       - static_value:/app/static/
