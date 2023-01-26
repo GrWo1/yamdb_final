@@ -13,7 +13,9 @@
 
 Проект `YaMDb` собирает отзывы пользователей
 
-
+<details>
+<summary> <b>Установка</b></summary>
+   
 ## Установка
 
 1. Проверить наличие Docker
@@ -111,6 +113,7 @@
     ```bash
     docker-compose down -v
     ```
+</details>
 
 ### :fire: Мой статус :
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=grwo1&theme=dark&background=000000)](https://git.io/streak-stats)
