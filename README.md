@@ -1,6 +1,4 @@
-# Проект YaMDb-final
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=2DF73F&width=435&lines=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82+YaMDb-final)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&pause=1000&color=14A6F7&width=435&lines=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82+YaMDb-final)](https://git.io/typing-svg)
 
 [![Python](https://img.shields.io/badge/-Python-464641?style=flat-square&logo=Python)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/)
